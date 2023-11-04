@@ -1,1 +1,26 @@
-// This file is empty, but some people were reporting that it would not start unless they had an empty file. So here it is! You can delete the comment. Or replace it with your favourite shania twain lyrics.
+const dotenv = require("dotenv");
+
+dotenv.config({ path: ".env" });
+
+module.exports = {
+  siteMetadata: {
+    title: `Slicks Slices`,
+    siteUrl: "https://gatsby.pizza",
+    description: "The best pizza place in Hamilton!",
+    twitter: "@slicksSlices",
+  },
+  plugins: [
+    "gatsby-plugin-styled-components",
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "wmlbcjhb",
+        dataset: "production",
+        // When you make changes within the sanity cms you wont have to restart the server if you use watchMode
+        watchMode: true,
+        token: process.env.SANITY_TOKEN,
+        apiVersion: "2023-11-01",
+      },
+    },
+  ],
+};

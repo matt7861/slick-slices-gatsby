@@ -7,6 +7,20 @@
           "options": {}
         },
         {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "pure": false,
+            "ssr": false
+          }
+        },
+        {
           "name": "/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -52,6 +66,20 @@
         {
           "name": "/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop-html",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "pure": false,
+            "ssr": false
+          }
         }
       ],
       "presets": [
@@ -87,6 +115,20 @@
         {
           "name": "/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-html",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "pure": false,
+            "ssr": true
+          }
         }
       ],
       "presets": [
@@ -122,6 +164,20 @@
         {
           "name": "/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-javascript",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "pure": false,
+            "ssr": true
+          }
         }
       ],
       "presets": [

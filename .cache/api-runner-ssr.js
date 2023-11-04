@@ -1,4 +1,13 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"pure":false},
+    },{
+      plugin: require('/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"wmlbcjhb","dataset":"production","watchMode":true,"token":"skUCGzB1HICQBMiSdnnb8V8kf84x8050WrUqbL2KO32YyyWA8a1uPonaJFnxPdqh7clC0KVypasEsAFwr3e41TCSugBKRXpNEBVvkFaDTJDprbUatYiLS4P9ha1EIIplVIajT0QSClJQEWsekDw50Ly1HzzGzqAZEhsBWMh9NKbsGNpKlYI4","apiVersion":"2023-11-01"},
+    },{
+      plugin: require('/Users/matt_studioalt/Desktop/training-ground/master-gatsby/slick-slices/slick-slices-gatsby/gatsby-ssr'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
